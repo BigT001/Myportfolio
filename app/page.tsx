@@ -96,20 +96,30 @@ export default function HomePage() {
     <div className="bg-[#010830] text-white min-h-screen">
       <div className="lg:flex justify-between px-4 md:px-8 lg:px-28 overflow-y-auto">
         <div className="lg:fixed py-6 lg:py-10 w-full lg:w-auto">
-          <div className="mt-20 flex flex-col items-start">
-            <h1 className="text-6xl md:text-4xl lg:text-6xl font-bold">
+          <div className="hidden md:block lg:mt-10 mt-20 flex-col items-start">
+            <h1 className="text-4xl font-bold text-left md:text-4xl lg:text-6xl">
               Samuel Stanley
+            </h1>
+            <p className="font-semibold md:text-xl text-2xl mt-2">
+              Full Stack Software Engineer
+            </p>
+          </div>
+
+          <div className="md:hidden mt-24 mb-5">
+            <h1 className="font-bold text-center">
+              <span className="block text-5xl tracking-[0.4em]">SAMUEL</span>
+              <span className="block text-5xl tracking-[0.4em]">STANLEY</span>
             </h1>
 
             <p className="font-semibold md:text-xl text-2xl mt-2">
               Full Stack Software Engineer
             </p>
-
-            <p className="mt-3 md:mt-5  md:text-base text-lg max-w-xs md:max-w-sm lg:max-w-md">
-              I Help Startups Launch And Grow Their Products. I build
-              pixel-perfect, engaging, and accessible digital experiences.
-            </p>
           </div>
+
+          <p className="mt-3 md:mt-5 md:text-base text-lg max-w-xs md:max-w-sm lg:max-w-md">
+            I Help Startups Launch And Grow Their Products. I build
+            pixel-perfect, engaging, and accessible digital experiences.
+          </p>
 
           {/* For Mobile */}
           <header className="lg:hidden fixed top-0 left-0 right-0 bg-[#010830] z-50 p-4">
