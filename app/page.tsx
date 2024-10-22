@@ -97,15 +97,15 @@ export default function HomePage() {
       <div className="lg:flex justify-between px-4 md:px-8 lg:px-28 overflow-y-auto">
         <div className="lg:fixed py-6 lg:py-10 w-full lg:w-auto">
           <div className="mt-20 flex flex-col items-start">
-            <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold">
+            <h1 className="text-6xl md:text-4xl lg:text-6xl font-bold">
               Samuel Stanley
             </h1>
 
-            <p className="font-semibold text-lg md:text-xl lg:text-2xl mt-2">
+            <p className="font-semibold md:text-xl text-2xl mt-2">
               Full Stack Software Engineer
             </p>
 
-            <p className="mt-3 md:mt-5 text-sm md:text-base lg:text-lg max-w-xs md:max-w-sm lg:max-w-md">
+            <p className="mt-3 md:mt-5  md:text-base text-lg max-w-xs md:max-w-sm lg:max-w-md">
               I Help Startups Launch And Grow Their Products. I build
               pixel-perfect, engaging, and accessible digital experiences.
             </p>
