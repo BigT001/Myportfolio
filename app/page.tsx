@@ -111,7 +111,7 @@ export default function HomePage() {
               <span className="block text-5xl tracking-[0.4em]">STANLEY</span>
             </h1>
 
-            <p className="text-center font-semibold md:text-xl text-2xl mt-2 w-full">
+            <p className="text-center font-semibold md:text-xl text-2xl mt-2 w-full tracking-[0.1em]">
               Full Stack Web Developer
             </p>
           </div>
@@ -173,15 +173,14 @@ export default function HomePage() {
         </div>
         <div className="grid gap-10 lg:ml-auto w-full lg:w-1/2 mt-6 lg:mt-0">
         <section id="boldFace" className="mt-5 scroll-mt-32">
-  <div className="w-full h-[550px] overflow-hidden">
-    <img
-      src="/Samuel.jpg"
-      alt="Samuel's portrait"
-      className="border-2 w-full h-full object-cover object-top"
-    />
-  </div>
-</section>
-
+        <div className="w-full h-[550px] overflow-hidden">
+          <img
+            src="/Samuel.jpg"
+            alt="Samuel's portrait"
+            className="border-2 w-full h-full object-cover object-top"
+          />
+          </div>
+          </section>
 
           <section
             id="about"
