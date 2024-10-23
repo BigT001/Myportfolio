@@ -13,17 +13,18 @@ import { Github, ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    title: "Ai Form Builder",
-    description: "Virtual Assistant Website.",
-    image: "/Samuel.png",
-    tags: ["React", "Node.js", "Postgress", "Drizzle, MongoDB"],
+    title: "NetForms",
+    description: "An AI form Builder. Net forms allows you to generate forms with prompt. you also have the ability to edit and delete forms",
+    image: "/Netformsscreenshot.png",
+    tags: ["React", "Node.js", "Next js", "Typescript", "Tailwindcss", "CSS", "JavaScript", "Postgress", "Drizzle", "Neon", "OpenAI"],
     githubLink: "https://github.com/BigT001",
     liveLink: "https://faabvs.com",
   },
+
   {
     title: "Portfolio Website",
     description:
-      "A responsive virtual Assistant Website with animated background, calender, contact form",
+      "A responsive virtual Assistant Website with animated background and beautiful gradiant colors, calender, contact form and social media integration. ",
     image: "/faabvsscreeshot.png",
     tags: [
       "React",
@@ -32,17 +33,18 @@ const projects = [
       "JavaScript",
       "Tailwindcss",
       "CSS",
+      "calendly",
     ],
     githubLink: "https://github.com/BigT001/Faabvs",
     liveLink: "https://faabvs.com",
   },
   {
-    title: "Task Management System",
-    description: "A Kanban-style task management app.",
-    image: "/Samuel.png",
+    title: "NetCrest",
+    description: "A Professional Cooperate Website",
+    image: "/netcrestscreenshot.png",
     tags: ["Vue.js", "Firebase", "Real-time Database"],
     githubLink: "https://github.com/BigT001",
-    liveLink: "https://task-management-demo.com",
+    liveLink: "https://netcrest.vercel.app/",
   },
   {
     title: "Portfolio Website",
