@@ -172,29 +172,37 @@ export default function HomePage() {
           </div>
         </div>
         <div className="grid gap-10 lg:ml-auto w-full lg:w-1/2 mt-6 lg:mt-0">
-          <section id="hero" className="mt-5">
-            <div className="w-full h-[300px] md:h-[450px] lg:h-[600px] overflow-hidden">
-              <img
-                id="boldFace"
-                src="/Samuel.jpg"
-                alt="Samuel's portrait"
-                className="border-2 w-full h-full object-cover object-top"
-              />
-            </div>
+        <section id="boldFace" className="mt-5 scroll-mt-32">
+  <div className="w-full h-[550px] overflow-hidden">
+    <img
+      src="/Samuel.jpg"
+      alt="Samuel's portrait"
+      className="border-2 w-full h-full object-cover object-top"
+    />
+  </div>
+</section>
+
+
+          <section
+            id="about"
+            className="h-auto py-8 md:py-10 pt-6 mt-10 md:mt-8 scroll-mt-20"
+          >
+            <AboutMe />
           </section>
 
-          <section id="about" className="h-auto py-8 md:py-10 pt-24 mt-16 md:mt-8">
-  <AboutMe />
-</section>
+          <section
+            id="projects"
+            className="h-auto py-8 md:py-10 pt-6 mt-10 md:mt-8 scroll-mt-20"
+          >
+            <Projects />
+          </section>
 
-<section id="projects" className="h-auto py-8 md:py-10 pt-24 mt-16 md:mt-8">
-  <Projects />
-</section>
-
-<section id="contact" className="h-auto py-16 md:py-24 pt-24 mt-16 md:mt-8">
-  <ContactForm />
-</section>
-
+          <section
+            id="contact"
+            className="h-auto py-8 md:py-10 pt-6 mt-10 md:mt-8 scroll-mt-20"
+          >
+            <ContactForm />
+          </section>
         </div>
       </div>
     </div>
