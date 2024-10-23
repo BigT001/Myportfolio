@@ -7,10 +7,10 @@ function AboutMe() {
         About Me
       </h1>
       <p className="text-xl py-2">
-       I'm a self-taught full-stack web developer with a passion 
+       I'm a full-stack web developer with a passion 
        for creating robust and efficient web applications. My journey 
        into programming was driven by curiosity and desire 
-       to learn and improve. <br/><br/>
+       to learn, improve and offer soluctions to real time issues. <br/><br/>
 
        Over the years I've cultivated a strong ability to learn 
        quickly and adapt to new technologies. I believe in writing clean, maintainable 
@@ -19,7 +19,7 @@ function AboutMe() {
 
        I'm passionate about solving complex problems and turning innovative ideas 
        into reality. Whether it's building responsive frontends or developing 
-       robust backend systems or optimizing database queries in PostgreSQL, 
+       robust backend systems or optimizing database queries in PostgreSQL and Mysql, 
        I'm always up for the challenge.
       </p>
     </div>
