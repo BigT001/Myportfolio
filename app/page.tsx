@@ -6,6 +6,7 @@ import AboutMe from "./_Components/AboutMe";
 import Projects from "./_Components/Projects";
 import ContactForm from "./_Components/ContactForm";
 import { FloatingDock } from "@/components/ui/floating-dock";
+
 import {
   IconBrandTwitter,
   IconBrandLinkedin,
