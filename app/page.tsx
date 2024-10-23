@@ -12,11 +12,9 @@ import {
   IconBrandGithub,
 } from "@tabler/icons-react";
 import { InstagramLogoIcon } from "@radix-ui/react-icons";
-import { BentoGrid } from "@/components/ui/bento-grid";
 
 export default function HomePage() {
   const [activeSection, setActiveSection] = useState("");
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     const observerOptions = {
@@ -57,7 +55,6 @@ export default function HomePage() {
       e.preventDefault();
       const targetId = href.substring(1);
       setActiveSection(targetId);
-      setIsMenuOpen(false);
       const targetElement = document.getElementById(targetId);
       if (targetElement) {
         targetElement.scrollIntoView({ behavior: "smooth" });
@@ -116,7 +113,7 @@ export default function HomePage() {
             </p>
           </div>
 
-          <p className="text-center mx-auto mt-3 md:mt-5 md:text-base text-lg max-w-xs md:max-w-sm lg:max-w-md">
+          <p className="lg:text-start text-center mx-auto mt-3 md:mt-5 md:text-base text-lg max-w-xs md:max-w-sm lg:max-w-md">
             I Help Startups Launch And Grow Their digital Products. I build
             pixel-perfect, engaging, and accessible web experiences.
           </p>
@@ -184,21 +181,21 @@ export default function HomePage() {
 
           <section
             id="about"
-            className="h-auto py-8 md:py-10 pt-6 mt-10 md:mt-8 scroll-mt-20"
+            className="h-auto py-8 md:py-10 pt-6 mt-10 md:mt-8 lg:scroll-mt-12 scroll-mt-20"
           >
             <AboutMe />
           </section>
 
           <section
             id="projects"
-            className="h-auto py-8 md:py-10 pt-6 mt-10 md:mt-8 scroll-mt-20"
+            className="h-auto py-8 md:py-10 pt-6 mt-10 md:mt-8 lg:scroll-mt-12 scroll-mt-20"
           >
             <Projects />
           </section>
 
           <section
             id="contact"
-            className="h-auto py-8 md:py-10 pt-6 mt-10 md:mt-8 scroll-mt-20"
+            className="h-auto py-8 md:py-10 pt-6 mt-10 md:mt-8 lg:scroll-mt-12 scroll-mt-20"
           >
             <ContactForm />
           </section>

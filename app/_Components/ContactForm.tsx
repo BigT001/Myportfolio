@@ -5,7 +5,7 @@ import { Textarea } from "@/components/ui/textarea"
 
 export default function ContactForm() {
   return (
-    <div className="min-h-screen items-center justify-center">
+    <div className="items-center justify-center">
       <div className="w-full  grid shadow-lg">
        
         <div className="bg-white p-8 flex-1">
