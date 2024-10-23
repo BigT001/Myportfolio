@@ -111,27 +111,25 @@ export default function HomePage() {
               <span className="block text-5xl tracking-[0.4em]">STANLEY</span>
             </h1>
 
-            
-  <p className="text-center font-semibold md:text-xl text-2xl mt-2 w-full">
-    Full Stack Web Developer
-  </p>
-</div>
+            <p className="text-center font-semibold md:text-xl text-2xl mt-2 w-full">
+              Full Stack Web Developer
+            </p>
+          </div>
 
-<p className="text-center mx-auto mt-3 md:mt-5 md:text-base text-lg max-w-xs md:max-w-sm lg:max-w-md">
-  I Help Startups Launch And Grow Their digital Products. I build
-  pixel-perfect, engaging, and accessible web experiences.
-</p>
+          <p className="text-center mx-auto mt-3 md:mt-5 md:text-base text-lg max-w-xs md:max-w-sm lg:max-w-md">
+            I Help Startups Launch And Grow Their digital Products. I build
+            pixel-perfect, engaging, and accessible web experiences.
+          </p>
 
           {/* For Mobile */}
           <header className="lg:hidden items-center fixed top-0 left-0 right-0 bg-[#010830] z-50 p-4">
-  <nav className="grid grid-cols-2 place-items-center gap-4 max-w-md mx-auto">
-    <NavLink href="#boldFace">Bold face 😃</NavLink>
-    <NavLink href="#about">About Me</NavLink>
-    <NavLink href="#projects">Projects</NavLink>
-    <NavLink href="#contact">Contact</NavLink>
-  </nav>
-</header>
-
+            <nav className="grid grid-cols-2 place-items-center gap-4 max-w-md mx-auto">
+              <NavLink href="#boldFace">Bold face 😃</NavLink>
+              <NavLink href="#about">About Me</NavLink>
+              <NavLink href="#projects">Projects</NavLink>
+              <NavLink href="#contact">Contact</NavLink>
+            </nav>
+          </header>
 
           <nav className="hidden lg:grid mt-10 gap-5">
             <NavLink href="#boldFace">Bold face 😃</NavLink>
@@ -185,21 +183,18 @@ export default function HomePage() {
             </div>
           </section>
 
-          <section id="about" className="h-auto py-8 md:py-10">
-            <AboutMe />
-          </section>
+          <section id="about" className="h-auto py-8 md:py-10 pt-24 mt-16 md:mt-8">
+  <AboutMe />
+</section>
 
-          <section id="projects" className="h-auto py-8 md:py-10">
-            <Projects />
-          </section>
+<section id="projects" className="h-auto py-8 md:py-10 pt-24 mt-16 md:mt-8">
+  <Projects />
+</section>
 
-          <section id="contact" className="h-auto py-16 md:py-24">
-            <ContactForm />
-          </section>
+<section id="contact" className="h-auto py-16 md:py-24 pt-24 mt-16 md:mt-8">
+  <ContactForm />
+</section>
 
-          <section id="bento" className="h-auto py-16 md:py-24">
-            <BentoGrid />
-          </section>
         </div>
       </div>
     </div>
